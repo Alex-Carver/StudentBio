@@ -1,0 +1,68 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 150%;
+  color: #333;
+  background: #34495e;
+}
+
+
+h1 {
+  padding: 20px 0;
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #34495e;
+  text-align: center;
+  background-color:#f2f2f2;
+}
+
+h2 {
+  font-size: 24px;
+  color: #e67e22;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+a:hover{
+  color:#e67e22;
+}
+
+ul,li{
+  color:#e67e22;
+  list-style-type: none;
+}
+
+p{
+  color: #fff;
+}
+
+
+.container {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+#main-bio,
+#contact-info,
+#bio-img {
+  float: left;
+}
+
+#main-bio {
+  width: 70%;
+}
+
+#contact-info {
+  width: 30%;
+}
+
+#bio-img {
+  width: 200px;
+  height: 200px;
+  margin-right: 20px;
+}
